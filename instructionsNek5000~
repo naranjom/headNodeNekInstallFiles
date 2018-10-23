@@ -1,0 +1,37 @@
+##Mario R. Naranjo
+##06/06/2018
+
+###Reprint directions once Nek5000 tools are successfully made
+echo "#####Instructions for running our example case 'eddy_uv'#####"
+echo "Enter the following:"
+echo "----------To generate mesh: ------------"
+echo "$: genmap"
+echo "when prompted enter: eddy_uv"
+echo "at the following prompt only hit enter"
+echo "---------To compile the code: ----------"
+echo "$: makenek eddy_uv"
+echo "---------To execute the code: ----------"
+echo "$: nekbmpi eddy_uv 4"
+echo "-------To generate visual file: --------"
+echo "$: visnek eddy_uv"
+echo "------To reprint these directions: -----"
+echo "$: \$HOME/./instructionsNek5000"
+################################################################
+############==========FOR YOUR REFERENCE============############
+######  Instructions for running our example case 'eddy_uv'  ###
+###                  Enter the following:                    ###
+###-----------------To generate mesh: -----------------------###
+###    $: genmap"                                            ###
+###    when prompted enter: eddy_uv"                         ###
+###    at the following prompt only hit enter"               ###
+###----------------To compile the code: ---------------------###
+###    $: makenek eddy_uv"                                   ###
+###----------------To execute the code: ---------------------###
+###    $: nekbmpi eddy_uv 4"                                 ###
+###--------------To generate visual file: -------------------###
+###    $: visnek eddy_uv"                                    ###
+###------------To reprint these directions: -----------------###
+###    $: \$HOME/./instructionsNek5000"                      ###
+#####                                                      #####
+########================================================########
+################################################################
