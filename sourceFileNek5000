@@ -1,0 +1,22 @@
+#!/bin/bash
+##Mario R. Naranjo
+##07/11/2018
+
+###############################################
+###          Steps for Nek5000              ###
+###############################################
+
+############  Prepare Modules   ###############
+##make sure we are working with a clean slate##
+module purge                                 ##
+###############################################
+##--------------Wheeler modules--------------##
+##---Load gcc compiler and openmpi library---##
+###############################################
+module load fftw-3.3.6-pl2-gcc-4.8.5-openmpi-zup6z74
+###############################################
+#############  Move to Nek5000     ############
+cd $HOME/Nek5000/run
+## List all current and archived cases ########
+ls
+###############################################
